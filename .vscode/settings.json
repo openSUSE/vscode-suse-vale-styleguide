@@ -8,4 +8,5 @@
     },
     // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
     "typescript.tsc.autoDetect": "off",
+    "vale.valeCLI.config": "/home/tbazant/.vscode-oss/extensions/opensuse.suse-vale-styleguide-0.2.1-universal/.vale.ini",
 }
