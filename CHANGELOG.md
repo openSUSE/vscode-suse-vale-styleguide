@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.2.3
+- added 'For example:' exception
 ## 0.2.2
 - migrated to a separate repository
 - suggest 'command-line' when 'command line' matched
