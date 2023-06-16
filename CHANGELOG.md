@@ -2,6 +2,7 @@
 
 ## 0.2.2
 - migrated to a separate repository
+- suggest 'command-line' when 'command line' matched
 ## 0.2.1
 ### Styles
 - removed checking for 'might'
