@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.0
+- removed static .vale.ini
+- autogenerating .vale.ini on extension startup
 ## 0.2.3
 - added 'For example:' exception
 ## 0.2.2
