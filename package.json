@@ -3,11 +3,11 @@
   "displayName": "SUSE Vale rules",
   "description": "Vale rules for SUSE styleguide",
   "icon": "icon.png",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "repository": "https://github.com/openSUSE/vscode-suse-vale-styleguide/",
   "publisher": "openSUSE",
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.79.0"
   },
   "categories": [
     "Linters"
@@ -15,5 +15,5 @@
   "activationEvents": [
     "onLanguage:xml"
   ],
-  "main": "extension.js"
+  "main": "./extension.js"
 }
