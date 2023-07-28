@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.1
+- updated comma surrounding detection for comma at the line break
+- updated tests accordingly
 ## 0.3.0
 - removed static .vale.ini
 - autogenerating .vale.ini on extension startup
