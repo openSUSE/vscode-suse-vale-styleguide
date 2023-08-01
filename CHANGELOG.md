@@ -1,8 +1,9 @@
 # Change Log
 
+## 0.3.2
+- updated 'for example' phrases at sentence end and comma at line break
 ## 0.3.1
-- updated comma surrounding detection for comma at the line break
-- updated tests accordingly
+- updated 'for example' phrases for comma at line break
 ## 0.3.0
 - removed static .vale.ini
 - autogenerating .vale.ini on extension startup
