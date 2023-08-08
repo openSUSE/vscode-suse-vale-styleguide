@@ -12,16 +12,23 @@ const fs = require('fs');
 function activate(context) {
     // get config obj for Vale plugin and construct path to .vale.ini
     let valeConfig = vscode.workspace.getConfiguration('vale');
-    let curValeConfigPath = context.extensionPath + '/.vale.ini';
-    console.log('Extension path to .vale.ini :' + curValeConfigPath);
+    let curValeConfigPath = `${context.extensionPath}/.vale.ini`;
+    console.log(`Extension path to .vale.ini :${curValeConfigPath}`);
     // get global storage URI and create if needed
     let globalStorageURI = context.globalStorageUri;
-    console.log('Global storage: ' + globalStorageURI.path);
+    console.log(`Global storage: ${globalStorageURI.path}`);
     if (fs.existsSync(globalStorageURI.path) == false) {
-        fs.mkdir(globalStorageURI.path);
+        console.log(`Global storage ${globalStorageURI.path} does not exists, trying to create`);
+        try {
+            fs.mkdirSync(globalStorageURI.fsPath);
+            console.log(`Global storage directory ${globalStorageURI.path} successfully created`);
+        } catch (err) {
+            console.error(err);
+            return false;
+        }
     }
-    let globalValeConfigPath = globalStorageURI.path + '/.vale.ini';
-    console.log('Global path to .vale.ini :' + globalValeConfigPath);
+    let globalValeConfigPath = `${globalStorageURI.path}/.vale.ini`;
+    console.log(`Global path to .vale.ini :${globalValeConfigPath}`);
     //compile the content of custom .vale.ini
     let valeIni = 'StylesPath = ' + context.extensionPath + '\n' +
         'MinAlertLevel = suggestion\n' +

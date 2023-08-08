@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.3
+- scope 'link' no longer exists, updated to 'raw'
+- globa storage directory creation fixed
 ## 0.3.2
 - updated 'for example' phrases at sentence end and comma at line break
 ## 0.3.1
