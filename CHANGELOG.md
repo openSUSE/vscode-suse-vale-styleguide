@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.3.4
+- valeCLI.config is written to user settings instead of workspace
 ## 0.3.3
 - scope 'link' no longer exists, updated to 'raw'
 - globa storage directory creation fixed

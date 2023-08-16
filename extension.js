@@ -43,7 +43,7 @@ function activate(context) {
         'BasedOnStyles = styles';
     //write the content of .vale.ini into the global strage file
     fs.writeFileSync(globalValeConfigPath, valeIni);
-    valeConfig.update('valeCLI.config', globalValeConfigPath);
+    valeConfig.update('valeCLI.config', globalValeConfigPath, true);
 }
 // This method is called when your extension is deactivated
 function deactivate() { }
