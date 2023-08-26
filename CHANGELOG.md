@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.3.6
+- fixed patterns for 'system d' and 'ram'
 ## 0.3.5
 - improved command-line rule
 ## 0.3.4
