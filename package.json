@@ -3,11 +3,15 @@
   "displayName": "SUSE Vale rules",
   "description": "Vale rules for SUSE styleguide",
   "icon": "icon.png",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "repository": "https://github.com/openSUSE/vscode-suse-vale-styleguide/",
   "publisher": "openSUSE",
+  "author": {
+    "name": "Tomáš Bažant",
+    "email": "tbazant@suse.cz"
+  },
   "engines": {
-    "vscode": "^1.79.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Linters"
