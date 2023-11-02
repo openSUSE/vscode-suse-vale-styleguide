@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.3.8
+- suggest to replace 2 dashes with &mdash;
+- excluded 'sle' and 'sles' as part of words
+- 'usually' is now fine
+- 'system-wide' is correct
 ## 0.3.7
 - updates for GRUB and XEN
 ## 0.3.6
