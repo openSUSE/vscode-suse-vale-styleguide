@@ -1,5 +1,8 @@
 # Change Log
 
+
+## 0.4.0
+- introduced export of suggestions from TermWeb
 ## 0.3.8
 - suggest to replace 2 dashes with &mdash;
 - excluded 'sle' and 'sles' as part of words
