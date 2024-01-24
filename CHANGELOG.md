@@ -1,6 +1,15 @@
 # Change Log
 
-
+## 0.4.1
+- new version of TermWeb XSL stylesheet with `valeRegex` attribute
+- removed product names from TermWeb export (use entities)
+- fixes the following terms:
+    * unit file
+    * unit
+    * drop-in
+    * drop-down
+    * dialog box
+    * solves
 ## 0.4.0
 - introduced export of suggestions from TermWeb
 ## 0.3.8
