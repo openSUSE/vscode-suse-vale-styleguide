@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.4.2
+- fixes the following terms:
+    * config
 ## 0.4.1
 - new version of TermWeb XSL stylesheet with `valeRegex` attribute
 - removed product names from TermWeb export (use entities)
