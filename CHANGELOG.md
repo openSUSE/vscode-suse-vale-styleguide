@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.4.3
+- fixes the following terms:
+    * dialog box -> dialog
 ## 0.4.2
 - fixes the following terms:
     * config
