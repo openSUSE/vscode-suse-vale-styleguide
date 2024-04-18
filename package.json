@@ -3,7 +3,7 @@
   "displayName": "SUSE Vale rules",
   "description": "Vale rules for SUSE styleguide",
   "icon": "icon.png",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "repository": "https://github.com/openSUSE/vscode-suse-vale-styleguide/",
   "publisher": "openSUSE",
   "author": {
@@ -17,7 +17,8 @@
     "Linters"
   ],
   "activationEvents": [
-    "onLanguage:xml"
+    "onLanguage:xml",
+    "onLanguage:asciidoc"
   ],
   "main": "./extension.js"
 }

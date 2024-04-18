@@ -39,8 +39,8 @@ function activate(context) {
         'BasedOnStyles = styles\n' +
         '[*.html]\n' +
         'BasedOnStyles = styles\n' +
-        '[*.{ md, txt, adoc }]\n' +
-        'BasedOnStyles = styles';
+        '[*.adoc]\n' +
+        'BasedOnStyles = styles\n';
     //write the content of .vale.ini into the global strage file
     fs.writeFileSync(globalValeConfigPath, valeIni);
     valeConfig.update('valeCLI.config', globalValeConfigPath, true);

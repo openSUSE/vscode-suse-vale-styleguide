@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.4.4
+- added asciidoc support
 ## 0.4.3
 - fixes the following terms:
     * dialog box -> dialog
