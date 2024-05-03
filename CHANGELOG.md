@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.5
+- fixed terms:
+    * in this case
+    * plug-in
+    * NVIDIA
+    * <link>here</link>
 ## 0.4.4
 - added asciidoc support
 ## 0.4.3
