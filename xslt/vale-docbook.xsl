@@ -58,9 +58,9 @@
                        d:markup|d:mathphrase|
                        d:option|d:optional|
                        d:package|d:parameter|d:prompt|d:programlisting|d:programlistingco|
-                       d:remark|d:replaceable|
-                       d:screen|d:screenco|
-                       d:tag|d:uri"/>
+                       d:tag|d:uri">
+   <xsl:message>Ignored <xsl:value-of select="local-name(.)"/>.</xsl:message>
+   </xsl:template>
 
   <!-- We don't want to create IDs with <a id="..."> -->
   <xsl:template match="*" mode="common.html.attributes"/>
