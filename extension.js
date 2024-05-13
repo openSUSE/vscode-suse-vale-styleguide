@@ -37,6 +37,8 @@ function activate(context) {
         '[*.xml]\n' +
         'Transform = ' + context.extensionPath + '/xslt/vale-docbook.xsl\n' +
         'BasedOnStyles = styles\n' +
+        '[*.txt]\n' +
+        'BasedOnStyles = styles\n' +
         '[*.html]\n' +
         'BasedOnStyles = styles\n' +
         '[*.adoc]\n' +

@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.4.6
+- merged 3 files into 1 for wordiness
+- updated list of wordiness suggestions
+- split tests into correct and wrong
 ## 0.4.5
 - fixed terms:
     * in this case
