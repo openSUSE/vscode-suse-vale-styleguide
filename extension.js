@@ -30,19 +30,19 @@ function activate(context) {
     let globalValeConfigPath = `${globalStorageURI.path}/.vale.ini`;
     console.log(`Global path to .vale.ini :${globalValeConfigPath}`);
     //compile the content of custom .vale.ini
-    let valeIni = 'StylesPath = ' + context.extensionPath + '\n' +
+    let valeIni = 'StylesPath = ' + context.extensionPath + '/styles\n' +
         'MinAlertLevel = suggestion\n' +
         '[asciidoctor]\n' +
         'experimental = YES\n' +
         '[*.xml]\n' +
         'Transform = ' + context.extensionPath + '/xslt/vale-docbook.xsl\n' +
-        'BasedOnStyles = styles\n' +
+        'BasedOnStyles = common, docbook\n' +
         '[*.txt]\n' +
-        'BasedOnStyles = styles\n' +
+        'BasedOnStyles = common\n' +
         '[*.html]\n' +
-        'BasedOnStyles = styles\n' +
+        'BasedOnStyles = common\n' +
         '[*.adoc]\n' +
-        'BasedOnStyles = styles\n';
+        'BasedOnStyles = common, asciidoc\n';
     //write the content of .vale.ini into the global strage file
     fs.writeFileSync(globalValeConfigPath, valeIni);
     valeConfig.update('valeCLI.config', globalValeConfigPath, true);
