@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.5.0
+- made a split between common, adoc and docbook rules
+- added an example .vale.ini file
 ## 0.4.6
 - merged 3 files into 1 for wordiness
 - updated list of wordiness suggestions
