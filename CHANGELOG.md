@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.5.2
+- fixed empty dir failure
+
 ## 0.5.1
 - improved debugging
 ## 0.5.0
