@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.5.1
+- improved debugging
 ## 0.5.0
 - made a split between common, adoc and docbook rules
 - added an example .vale.ini file
