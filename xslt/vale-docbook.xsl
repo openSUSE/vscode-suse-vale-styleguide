@@ -58,7 +58,7 @@
                        d:markup|d:mathphrase|
                        d:option|d:optional|
                        d:package|d:parameter|d:prompt|d:programlisting|d:programlistingco|
-                       d:tag|d:uri">
+                       d:tag|d:uri|d:remark">
    <xsl:message>Ignored <xsl:value-of select="local-name(.)"/>.</xsl:message>
    </xsl:template>
 
