@@ -6,7 +6,7 @@ const dbgChannel = vscode.window.createOutputChannel('VALE-SUSE');
 
 
 function dbg(msg) {
-    dbgChannel.appendLine(`dbg: ${msg}`);
+    dbgChannel.appendLine(`dbg:vale-suse: ${msg}`);
     console.log(`dbg:vale-suse: ${msg}`);
 }
 
@@ -44,12 +44,10 @@ function activate(context) {
         '[*.xml]\n' +
         'Transform = ' + context.extensionPath + '/xslt/vale-docbook.xsl\n' +
         'BasedOnStyles = common, docbook\n' +
-        '[*.txt]\n' +
-        'BasedOnStyles = common\n' +
-        '[*.html]\n' +
-        'BasedOnStyles = common\n' +
         '[*.adoc]\n' +
-        'BasedOnStyles = common, asciidoc\n';
+        'BasedOnStyles = common, asciidoc\n' +
+        '[*]\n' +
+        'BasedOnStyles = common\n';
     //write the content of .vale.ini into the global strage file
     fs.writeFileSync(globalValeConfigPath, valeIni);
     valeConfig.update('valeCLI.config', globalValeConfigPath, true);
