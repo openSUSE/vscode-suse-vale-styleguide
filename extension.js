@@ -46,7 +46,7 @@ function activate(context) {
         'BasedOnStyles = common, docbook\n' +
         '[*.adoc]\n' +
         'BasedOnStyles = common, asciidoc\n' +
-        '[*]\n' +
+        '[*.{txt,md,yml}]\n' +
         'BasedOnStyles = common\n';
     //write the content of .vale.ini into the global strage file
     fs.writeFileSync(globalValeConfigPath, valeIni);

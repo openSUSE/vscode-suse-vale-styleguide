@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.6.0
+- introduced SUSE and 3rd party products
+- fresh export from Termweb
+- limited linted file formats
 ## 0.5.2
 - fixed empty dir failure
 
@@ -53,14 +57,14 @@
 - valeCLI.config is written to user settings instead of workspace
 ## 0.3.3
 - scope 'link' no longer exists, updated to 'raw'
-- globa storage directory creation fixed
+- global storage directory creation fixed
 ## 0.3.2
 - updated 'for example' phrases at sentence end and comma at line break
 ## 0.3.1
 - updated 'for example' phrases for comma at line break
 ## 0.3.0
 - removed static .vale.ini
-- autogenerating .vale.ini on extension startup
+- auto-generating .vale.ini on extension startup
 ## 0.2.3
 - added 'For example:' exception
 ## 0.2.2
@@ -73,12 +77,12 @@
 
 ## 0.2.0
 ### Extension
-- added customized docbook XSLT stylesheet
+- added customized DocBook XSLT stylesheet
 - added test file with correct and wrong sentence examples
 - icon made transparent
 ### Styles
 - added new rule to surround specific terms with commas
-- improved quote detection to ommit possessives
+- improved quote detection to omit possessives
 - improved detection of number + unit sequence
 - removed swap for 'static IP address'
 - removed confusing 'more than 3 commas' rule
