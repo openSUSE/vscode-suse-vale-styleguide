@@ -1,12 +1,16 @@
 # Change Log
 
+## 0.6.1
+- added 'Kanidm'
+- fresh Termweb export
+- removed YAML from linted files
+- fixed `ignorecase` where applicable
 ## 0.6.0
 - introduced SUSE and 3rd party products
 - fresh export from Termweb
 - limited linted file formats
 ## 0.5.2
 - fixed empty dir failure
-
 ## 0.5.1
 - improved debugging
 ## 0.5.0
