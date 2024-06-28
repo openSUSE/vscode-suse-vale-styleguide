@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.6.2
+- added rule for apostrophes in acronyms
+- updated rule for semicolons
+- updated Will and Pronouns rules
+- fixed spacing in Latin forms
+- updated rule for contractions
 ## 0.6.1
 - added 'Kanidm'
 - fresh Termweb export
