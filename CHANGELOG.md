@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.6.3
+- updated SurroundingCommas + added test
+- added a new Slash rule
+- updated entities in tests
+- removed 'in this case' at the end of sentence
 ## 0.6.2
 - added rule for apostrophes in acronyms
 - updated rule for semicolons
