@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.4
+- fresh export from Termweb
 ## 0.6.3
 - updated SurroundingCommas + added test
 - added a new Slash rule
