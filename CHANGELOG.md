@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.5
+- fixed 'Oauth 2.0', 'drop-down list' and 'single sign-on'
 ## 0.6.4
 - fresh export from Termweb
 ## 0.6.3
