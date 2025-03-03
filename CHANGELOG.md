@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.7
+- <screen/> is now checked for lines longer than 80 characters
 ## 0.6.6
 - add tule to suggest <figure> over <informalfigure>
 ## 0.6.5
