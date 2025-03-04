@@ -38,6 +38,7 @@ function activate(context) {
     dbg(`Global path to .vale.ini :${globalValeConfigPath}`);
     //compile the content of custom .vale.ini
     let valeIni = 'StylesPath = ' + context.extensionPath + '/styles\n' +
+        'Vocab = SUSE\n' +
         'MinAlertLevel = suggestion\n' +
         '[asciidoctor]\n' +
         'experimental = YES\n' +

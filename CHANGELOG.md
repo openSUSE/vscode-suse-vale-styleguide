@@ -1,9 +1,13 @@
 # Change Log
 
+## 0.6.9
+- Vale now provides spell-checking capabilities
+## 0.6.8
+- Asciidoc code blocks are now checked for lines longer than 80 characters
 ## 0.6.7
-- <screen/> is now checked for lines longer than 80 characters
+- `<screen/>` is now checked for lines longer than 80 characters
 ## 0.6.6
-- add tule to suggest <figure> over <informalfigure>
+- add tule to suggest `<figure>` over `<informalfigure>`
 ## 0.6.5
 - fixed 'Oauth 2.0', 'drop-down list' and 'single sign-on'
 ## 0.6.4
@@ -44,7 +48,7 @@
     * in this case
     * plug-in
     * NVIDIA
-    * <link>here</link>
+    * `<link>`here`</link>`
 ## 0.4.4
 - added asciidoc support
 ## 0.4.3
