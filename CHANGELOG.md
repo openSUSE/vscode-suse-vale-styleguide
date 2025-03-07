@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.6.10
+- long lines in Docbook `<screen/>` are correctly detected eve if contain regexp
+  characters
 ## 0.6.9
 - Vale now provides spell-checking capabilities
 ## 0.6.8
