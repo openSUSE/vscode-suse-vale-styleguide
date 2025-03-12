@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.11
+- detect empty table headers (DB) or headers starting with lowercase (ADOC)
 ## 0.6.10
 - long lines in Docbook `<screen/>` are correctly detected eve if contain regexp
   characters
