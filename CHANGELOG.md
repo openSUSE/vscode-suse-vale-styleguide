@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.12
+- detection of lowercased table headers aligned for ADOC and DB
 ## 0.6.11
 - detect empty table headers (DB) or headers starting with lowercase (ADOC)
 ## 0.6.10
