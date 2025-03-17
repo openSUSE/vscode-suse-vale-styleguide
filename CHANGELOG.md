@@ -1,16 +1,18 @@
 # Change Log
 
+## 0.6.13
+- detects none or empty object description
 ## 0.6.12
-- detection of lowercased table headers aligned for ADOC and DB
+- detection of lower-cased table headers aligned for ADOC and DB
 ## 0.6.11
 - detect empty table headers (DB) or headers starting with lowercase (ADOC)
 ## 0.6.10
-- long lines in Docbook `<screen/>` are correctly detected eve if contain regexp
+- long lines in DocBook `<screen/>` are correctly detected eve if contain regexp
   characters
 ## 0.6.9
 - Vale now provides spell-checking capabilities
 ## 0.6.8
-- Asciidoc code blocks are now checked for lines longer than 80 characters
+- AsciiDoc code blocks are now checked for lines longer than 80 characters
 ## 0.6.7
 - `<screen/>` is now checked for lines longer than 80 characters
 ## 0.6.6
