@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.15
+- detects empty image alt text for AsciiDoc
 ## 0.6.14
 - fixed wrongly detected capitalized word after a colon
 ## 0.6.13
