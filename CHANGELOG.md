@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.6.16
+- improved 'single sign-on' rule
+- detects `<figure>` with no xml:id defined
+- 'native' is inclusive in 'cloud native'
 ## 0.6.15
 - detects empty image alt text for AsciiDoc
 ## 0.6.14
@@ -20,11 +24,11 @@
 ## 0.6.7
 - `<screen/>` is now checked for lines longer than 80 characters
 ## 0.6.6
-- add tule to suggest `<figure>` over `<informalfigure>`
+- add rule to suggest `<figure>` over `<informalfigure>`
 ## 0.6.5
 - fixed 'Oauth 2.0', 'drop-down list' and 'single sign-on'
 ## 0.6.4
-- fresh export from Termweb
+- fresh export from TermWeb
 ## 0.6.3
 - updated SurroundingCommas + added test
 - added a new Slash rule
