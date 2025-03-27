@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.6.17
+- added the option `suse-vale.custom.ignorelist` to ignore specific words from
+  spelling
 ## 0.6.16
 - improved 'single sign-on' rule
 - detects `<figure>` with no xml:id defined

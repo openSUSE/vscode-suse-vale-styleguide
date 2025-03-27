@@ -3,7 +3,7 @@
   "displayName": "SUSE Vale rules",
   "description": "Vale rules for SUSE styleguide",
   "icon": "icon.png",
-  "version": "0.6.16",
+  "version": "0.6.17",
   "repository": "https://github.com/openSUSE/vscode-suse-vale-styleguide/",
   "publisher": "openSUSE",
   "author": {
@@ -20,5 +20,17 @@
     "onLanguage:xml",
     "onLanguage:asciidoc"
   ],
-  "main": "./extension.js"
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "SUSE Vale",
+      "properties": {
+        "suse-vale.custom.ignorelist": {
+          "type": "string",
+          "default": "",
+          "description": "Path to a custom ignorelist file. Absolute or relative to the styles directory."
+        }
+      }
+    }
+  }
 }
