@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.18
+- fresh terms export from TermWeb
 ## 0.6.17
 - added the option `suse-vale.custom.ignorelist` to ignore specific words from
   spelling
@@ -45,7 +47,7 @@
 - updated rule for contractions
 ## 0.6.1
 - added 'Kanidm'
-- fresh Termweb export
+- fresh TermWeb export
 - removed YAML from linted files
 - fixed `ignorecase` where applicable
 ## 0.6.0
