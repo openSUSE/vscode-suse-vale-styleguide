@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.20
+- detects AsciiDoc links that contain example patterns
 ## 0.6.19
 - fresh updated export from TermWeb
 - detects DocBook links that contain example patterns
