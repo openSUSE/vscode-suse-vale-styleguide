@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.21
+- fixed detecting long code lines with backslash at their end
 ## 0.6.20
 - detects AsciiDoc links that contain example patterns
 ## 0.6.19
