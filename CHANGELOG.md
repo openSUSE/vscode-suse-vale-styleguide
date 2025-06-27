@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.6.22
+- fresh export from TermWeb
+- added tests for 'width' attribute in DB and ADOC fiels
 ## 0.6.21
 - fixed detecting long code lines with backslash at their end
 ## 0.6.20
