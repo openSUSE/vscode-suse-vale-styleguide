@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.23
+- added checks for upper cased image file names + tests
 ## 0.6.22
 - fresh export from TermWeb
 - added tests for 'width' attribute in DB and ADOC fiels
