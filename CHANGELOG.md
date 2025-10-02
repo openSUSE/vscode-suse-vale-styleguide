@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.6.24
+- improved `url` substitution to catch `url` and `Url`
+- removed `But.yml` and `OptPlural.yml` files
+- added tests for `url` in `Terms.yml`
 ## 0.6.23
 - added checks for upper cased image file names + tests
 ## 0.6.22
