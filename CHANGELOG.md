@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.6.25
+- improved detection of phrases with slashes and 'url'
+- disabled contractions
 ## 0.6.24
 - improved `url` substitution to catch `url` and `Url`
 - removed `But.yml` and `OptPlural.yml` files
