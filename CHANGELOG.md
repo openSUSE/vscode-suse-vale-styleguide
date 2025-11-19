@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.6.26
+- improved detection of a capital letter after a colon
+- added 'and/or' to allowed slashes
 ## 0.6.25
 - improved detection of phrases with slashes and 'url'
 - disabled contractions
