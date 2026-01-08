@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.27
+- ignore docinfo.xml files
 ## 0.6.26
 - improved detection of a capital letter after a colon
 - added 'and/or' to allowed slashes

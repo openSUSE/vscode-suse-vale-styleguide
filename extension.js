@@ -100,6 +100,10 @@ function activate(context) {
         '[*.xml]\n' +
         'Transform = ' + context.extensionPath + '/xslt/vale-docbook.xsl\n' +
         'BasedOnStyles = common, docbook\n' +
+        '[*-docinfo.xml]\n' +
+        'BasedOnStyles =\n' +
+        '[docinfo.xml]\n' +
+        'BasedOnStyles =\n' +
         '[*.adoc]\n' +
         'BasedOnStyles = common, asciidoc\n' +
         '[*.{txt,md}]\n' +
