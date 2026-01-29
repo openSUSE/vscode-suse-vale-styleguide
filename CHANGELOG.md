@@ -1,5 +1,7 @@
 # Change Log
 
+## 0.6.28
+- disabled rules for slashes and example links that cause false positives
 ## 0.6.27
 - ignore docinfo.xml files
 ## 0.6.26

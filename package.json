@@ -3,7 +3,7 @@
   "displayName": "SUSE Valey rules",
   "description": "Vale rules for SUSE styleguide",
   "icon": "icon.png",
-  "version": "0.6.27",
+  "version": "0.6.28",
   "repository": "https://github.com/openSUSE/vscode-suse-vale-styleguide/",
   "publisher": "bazantici",
   "author": {
