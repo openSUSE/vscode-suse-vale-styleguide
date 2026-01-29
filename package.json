@@ -32,5 +32,10 @@
         }
       }
     }
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.2.0"
   }
 }
