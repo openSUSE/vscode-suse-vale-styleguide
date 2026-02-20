@@ -1,14 +1,14 @@
 {
-  "name": "suse-valey-styleguide",
-  "displayName": "SUSE Valey rules",
+  "name": "suse-vale-styleguide",
+  "displayName": "SUSE Vale rules",
   "description": "Vale rules for SUSE styleguide",
   "icon": "icon.png",
   "version": "0.6.28",
   "repository": "https://github.com/openSUSE/vscode-suse-vale-styleguide/",
-  "publisher": "bazantici",
+  "publisher": "openSUSE",
   "author": {
     "name": "Tomáš Bažant",
-    "email": "tbazant@suse.cz"
+    "email": "tbazant@suse.com"
   },
   "engines": {
     "vscode": "^1.74.0"
