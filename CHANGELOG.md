@@ -1,15 +1,19 @@
 # Change Log
 
+## 0.6.29
+- removed remains of spelling/ignorelist code
+- disabled check for a capital letter after a colon
+- fixed checks for `R.A.M.` and `admin` strings
 ## 0.6.28
 - disabled rules for slashes and example links that cause false positives
 ## 0.6.27
-- ignore docinfo.xml files
+- ignore *-docinfo.xml files
 ## 0.6.26
 - improved detection of a capital letter after a colon
 - added 'and/or' to allowed slashes
 ## 0.6.25
 - improved detection of phrases with slashes and 'url'
-- disabled contractions
+- disabled check for contractions
 ## 0.6.24
 - improved `url` substitution to catch `url` and `Url`
 - removed `But.yml` and `OptPlural.yml` files
